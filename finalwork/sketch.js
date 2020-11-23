@@ -13,8 +13,6 @@ function setup(){
   noLoop();
 }
 
-
-
 function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
 }
@@ -23,7 +21,7 @@ function windowResized(){
 
 function sum(arr){
   let n =0;
-  for(let i = 0; i < arr.length; i++){ 
+  for(let i = 0; i < arr.length; i++){
     n += arr[i];
   }
   return n;
